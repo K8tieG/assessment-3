@@ -1,0 +1,24 @@
+How does the internet work?
+
+The internet is a vast network of computers that are connected and communicate with one another. Every device connected to the 
+internet has a unique Internet Protocol or IP address. An IP address acts much like a mailing address in terms of how information 
+is sent and tracked. Doamain names are ascribed to IP addresses to make it easier for us to recall the names of websites in place 
+of using their unique IP address which is a series of numbers. 
+
+A person enters the domain name of a website and the broweser sends a request to the Domain Name System (DNS) server, 
+bascially the internet phone book where all IP addresses are stored. After the DNS finds the IP address the brower forwards the 
+request on to a data center or particular server for the particular website. The server then sends the information back to you.
+
+Information is sent in the form of packages. Bascially information is broken down into smaller chunks so it can be more easily 
+and rapily transported back to the client computer.
+
+
+
+What happens when you click on a link?
+
+When you click on a link, you active a request. Your browser and operating system start to determine where you have clicked, 
+and what uniform resource locator (url) information you have clicked on to view next. Inside of a URL is the name of the website
+that you've asked to view. Your browser breaks out the URL so it can grab the name name of the web site you'd like you view
+and then uses the DNS to get the correct IP address for the site. Then your browser opens the Transmission Control Protocol (TCP)
+over the IP address. It reqeusts to chat with the Hypertext transfer protocol (HTTP) server which then provides the markeup language, HTML
+your browser renders so you can view the clicked link webpage.
